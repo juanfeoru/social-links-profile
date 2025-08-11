@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-with-html-and-css-BpX0zH3Vsa](https://github.com/juanfeoru/social-links-profile)
-- Live Site URL: [https://yourusername.github.io/social-links-profile/](https://juanfeoru.github.io/social-links-profile/#)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-profile-with-html-and-css-BpX0zH3Vsa](https://www.frontendmentor.io/solutions/responsive-social-links-profile-card-using-css-flexbox-zEm3RknMbc)
+- Live Site URL: [https://juanfeoru.github.io/social-links-profile/](https://juanfeoru.github.io/social-links-profile/#)
 
 ## My process
 

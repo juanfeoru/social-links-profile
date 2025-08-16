@@ -15,18 +15,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <article class="profile-card">
+    <article class="profile-card" aria-labelledby="title">
       <img
         src="./assets/images/avatar-jessica.jpeg"
         alt="Profile picture of Jessica Randall"
         class="profile-card__image"
         loading="lazy"
+        width="176"
+        height="176"
       />
       <h1 class="profile-card__name">Jessica Randall</h1>
       <p class="profile-card__location">London, United Kingdom</p>
       <p class="profile-card__bio">"Front-end developer and avid reader."</p>
 
-      <section class="profile-card__social">
+      <section class="profile-card__social" aria-labelledby="title">
         <ul class="profile-card__social-list">
           <li class="profile-card__social_item">
             <a href="#" class="profile-card__social-link">GitHub</a>

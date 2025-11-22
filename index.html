@@ -13,37 +13,67 @@
 
     <title>Frontend Mentor | Social links profile</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <article class="profile-card" aria-labelledby="title">
+
+  <body
+    class="bg-[var(--grey-900)] text-[var(--white)] flex justify-center items-center min-h-screen p-6"
+  >
+    <article
+      class="bg-[var(--grey-800)] rounded-xl text-center max-w-[27rem] p-11 w-full"
+      aria-labelledby="title"
+    >
       <img
         src="./assets/images/avatar-jessica.jpeg"
         alt="Profile picture of Jessica Randall"
-        class="profile-card__image"
+        class="w-[6rem] h-[6rem] rounded-full object-cover mx-auto mb-7"
         loading="lazy"
         width="176"
         height="176"
       />
-      <h1 class="profile-card__name">Jessica Randall</h1>
-      <p class="profile-card__location">London, United Kingdom</p>
-      <p class="profile-card__bio">"Front-end developer and avid reader."</p>
 
-      <section class="profile-card__social" aria-labelledby="title">
-        <ul class="profile-card__social-list">
-          <li class="profile-card__social_item">
-            <a href="#" class="profile-card__social-link">GitHub</a>
+      <h1 class="text-3xl font-semibold mb-1">Jessica Randall</h1>
+
+      <p class="text-[var(--green)] font-bold mb-7">London, United Kingdom</p>
+
+      <p class="font-normal mb-7">"Front-end developer and avid reader."</p>
+
+      <section aria-labelledby="title">
+        <ul class="flex flex-col gap-4">
+          <li>
+            <a
+              href="#"
+              class="text-center bg-[var(--grey-700)] cursor-pointer rounded-lg w-full py-3 px-4 font-semibold block ease-in-out duration-300 hover:bg-[var(--green)] hover:text-[var(--grey-900)]"
+              >GitHub</a
+            >
           </li>
-          <li class="profile-card__social_item">
-            <a href="#" class="profile-card__social-link">Frontend Mentor</a>
+          <li>
+            <a
+              href="#"
+              class="text-center bg-[var(--grey-700)] cursor-pointer rounded-lg w-full py-3 px-4 font-semibold block ease-in-out duration-300 hover:bg-[var(--green)] hover:text-[var(--grey-900)]"
+              >Frontend Mentor</a
+            >
           </li>
-          <li class="profile-card__social_item">
-            <a href="#" class="profile-card__social-link">LinkedIn</a>
+          <li>
+            <a
+              href="#"
+              class="text-center bg-[var(--grey-700)] cursor-pointer rounded-lg w-full py-3 px-4 font-semibold block ease-in-out duration-300 hover:bg-[var(--green)] hover:text-[var(--grey-900)]"
+              >LinkedIn</a
+            >
           </li>
-          <li class="profile-card__social_item">
-            <a href="#" class="profile-card__social-link">Twitter</a>
+          <li>
+            <a
+              href="#"
+              class="text-center bg-[var(--grey-700)] cursor-pointer rounded-lg w-full py-3 px-4 font-semibold block ease-in-out duration-300 hover:bg-[var(--green)] hover:text-[var(--grey-900)]"
+              >Twitter</a
+            >
           </li>
-          <li class="profile-card__social_item">
-            <a href="#" class="profile-card__social-link">Instagram</a>
+          <li>
+            <a
+              href="#"
+              class="text-center bg-[var(--grey-700)] cursor-pointer rounded-lg w-full py-3 px-4 font-semibold block ease-in-out duration-300 hover:bg-[var(--green)] hover:text-[var(--grey-900)]"
+              >Instagram</a
+            >
           </li>
         </ul>
       </section>

@@ -6,3 +6,6 @@
 
 .DS_Store
 .prettierignore
+
+
+tailwind.config.js
